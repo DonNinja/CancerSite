@@ -1,0 +1,44 @@
+body {
+	color: #fffff0;
+	/*background: #000009;*/
+	background: url(https://i.redd.it/z5egq8uw1x031.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto;
+	/*display: flex;*/
+}
+.title {
+	margin: 1.5em;
+	text-decoration: underline;
+	text-shadow: 2px 2px black;
+}
+.text-row {
+	margin-top: 6em;
+	text-align: center;
+	flex-flow: row;
+	display: flex;
+	color: red;
+	max-width: 80%;
+	margin: 0 auto;
+}
+.box {
+	padding: 1em;
+	background-color: rgba(0,0,0,.8);
+}
+.left {
+	border-style: solid;
+	border-radius: 10px;
+	max-width: 25%;
+}
+.center {
+	border-style: solid;
+	border-radius: 10px;
+	max-width: 50%
+}
+.right {
+	border-style: solid;
+	border-radius: 10px;
+	max-width: 25%
+}
